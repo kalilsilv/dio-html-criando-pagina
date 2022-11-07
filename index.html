@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="topo">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>
+    
+    <ul>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#html">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#lista">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#links">Links de referências</a></li>
+    </ul>
+
+    <h3 id="historia">História dos computadores</h3><small><a href="#topo">Topo</a></small>
+    <p><strong>O primeiro computador foi criado entre 1943 e 1946 e se chamava Eletronic Numerical Integrator and Computer — <i>ENIAC</i></strong> 
+
+    Para o seu desenvolvimento, foi investido cerca de 6 milhões de dólares e seu funcionamento dependia de uma série de fatores, como 200 mil watts de energia.
+        
+    Um fator de grande importância é a memória, algo que não tinha na época do ENIAC. Cerca de 10 anos depois, foi lançado o RAMAX 305, uma máquina de armazenamento em disco feito pela IBM.
+        
+    No começo, só empresas e certas instituições faziam uso de um computador e, com o passar do tempo, essa tecnologia seria acessada por todos.</p>
+
+    <p>Por volta de 1980, a <strong>IBM</strong> liderava o ramo da computação com o desenvolvimento do sistema operacional <strong>86-DOS</strong> e a <i>Microsoft</i> começava a desenvolver suas ideias e ofereceu o seu próprio sistema operacional para a <strong>IBM</strong>. Ao fechar o acordo, Bill Gates comprou o <strong>IBM 1.10</strong> da <strong>IBM</strong> e o sistema operacional acabou sendo propriedade exclusiva da <i>Microsoft</i>.
+
+    A <i>Microsoft</i> acabou vendendo também o seu sistema operacional para outras empresas, garantindo assim a evolução dos computadores para as pessoas.</p>
+
+    <p>Em 1993, surgiu a <i>World Wide Web</i>, mais conhecida como <strong>WWW</strong>. Além disso, o celular começava a surgir para atender as necessidades das empresas. Do <strong>ENIAC</strong> para o primeiro smartphone, passaram-se cerca de 70 anos e a história não para por aí.
+
+    Vemos que a cada dia mais surgem novas tecnologias com melhores chances de armazenamento e velocidade.
+            
+    Nos dias atuais, vemos, por exemplo, o quanto a tecnologia em nuvem tem agregado na rotina de pessoas e empresas, ainda mais em uma rotina home office como temos vivenciado.
+        
+    Ou seja, os avanços tecnológicos são essenciais em nosso cotidiano e só nos trazem benefícios, como praticidade, segurança e agilidade.</p>
+
+    <h3 id="clients">O que são <i>Clients</i>?</h3><small><a href="#topo">Topo</a></small>
+    <p><strong>"Cliente"</strong> é um termo empregado em computação e representa uma entidade que consome os serviços de uma outra entidade servidora, em geral através do uso de uma rede de computadores numa arquitetura cliente-servidor</p>
+
+    <h3 id="servers">O que são <i>Servers</i>?</h3><small><a href="#topo">Topo</a></small>
+    <p>Um <strong>servidor</strong> é um computador equipado com um ou mais processadores, bancos de memória, portas de comunicação, softwares e, ocasionalmente, algum sistema para armazenamento de dados, como hard disks internos ou memórias SSD.
+
+    O termo servidor também define um recurso dentro de um sistema computacional maior, capaz de processar aplicações, prestar serviços e armazenar dados. Esses sistemas podem ser físicos ou virtuais, estarem instalados local ou remotamente. Normalmente, são escaláveis e possuem alto poder de processamento.
+        
+    Capazes de executar um conjunto específico de programas ou protocolos para fornecer serviços para outras máquinas ou clientes, servidores são equipamentos dedicados a executar aplicações e serviços dentro de uma rede <i>LAN</i> ou <i>WAN</i>.</p>
+
+    <h3 id="html">Como é uma estrutura básica de um HTML?</h3><small><a href="#topo">Topo</a></small>
+    <p>O documento HTML sempre inicia com o que chamamos de estrutura básica. Esta estrutura é quase que imutável. Sempre será dessa forma e você sempre, sempre começará seu HTML começando por esse código. Geralmente os editores como o Sublime Text já tem atalhos para iniciar os documentos HTMLs com essa estrutura, logo, você não precisa se preocupar em decorá-la, mas é bom que faça.
+
+    É possível compreender o documento em HTML de uma maneira muito simples, através de uma divisão de blocos das tags essenciais, conforme a a seguinte estrutura:
+        
+    <ol>
+        <li>Definição do documento (doctype)</li>
+        <li>Cabeça (head)</li>
+        <li>Corpo (body)</li>
+        <li>Doctype - Definindo o documento</li>
+    </ol> 
+           
+    Uma coisa importante: SEMPRE deve existir o doctype
+        
+    O doctype não é uma tag HTML, mas uma instrução para o navegador e outros programas que podem ler seu site, que o código encontrado ali é um código HTML. Assim eles sabem o que fazer para mostrar seu site da melhor forma possível. Lembre-se: o doctype é OBRIGATÓRIO e deve ser sempre a PRIMEIRA LINHA do seu documento.
+        
+    <h4>HEAD</h4> 
+    Contém informações que não são transpostas visivelmente para o usuário/leitor do documento. São dados implícitos, de uso e controle do documento: vinculação com outros arquivos, aplicação de lógica de programação de scripts e metadados. Na prática, todo o conteúdo do cabeçalho fica delimitado entre a abertura e fechamento tag head.
+        
+    <h4>BODY</h4> 
+    Trata-se do documento em si, ou seja, a informação legível para o usuário/leitor do documento. É todo e qualquer texto que se deseja apresentar, assim como toda e qualquer forma de mídia de saída (imagens, sons, miniaplicativos embutidos, conteúdo multimídia, etc). Além disso, toda a apresentação de entrada de dados (formulários) também se aplica neste seção do documento.
+        
+    Este é o preceito básico que deve estar muito bem claro para você: onde as marcações se aplicam, e quais são os resultados deste modelo. Por exemplo: se vocês deseja informar conteúdo textual para saída legível ao usuário do seu sistema web, esta marcação deverá obrigatoriamente estar no bloco do corpo da página. Ainda: para definir qual o tipo de codificação da página (uma meta informação do documento), esta deve obrigatoriamente estar marcada no cabeçalho do mesmo documento.
+        
+    Dentro do elemento BODY sua estrutura de página terá os elementos semânticos da construção da sua página, onde serão declarados e identificados cabeçalhos, rodapé, conteúdo principal, etc.</p>
+
+    <h3 id="lista">Entendendo a diferença entre listas ordenadas e não ordenadas</h3><small><a href="#topo">Topo</a></small>
+    <p>A principal diferença entre a lista ordenada e a lista não-ordenada está na maneira com que os itens de cada lista são apresentados - a <strong>lista ordenada</strong> enumera os elementos; a <strong>lista não-ordenada</strong> coloca marcadores antes de cada elemento.</p>
+
+    <h4 id="links">Links de referências</h4><small><a href="#topo">Topo</a></small>
+     <ul>
+        <li><a href="#">http://dio.me</a></li>
+        <li><a href="#">http://w3c.org</a></li>
+        <li><a href="#">https://blog.contmatic.com.br/evolucao-dos-computadores/#:~:text=O%20primeiro%20computador%20foi%20criado,200%20mil%20watts%20de%20energia.</a></li>
+        <li><a href="#">https://pt.wikipedia.org/wiki/Cliente_(computa%C3%A7%C3%A3o)</a></li>
+        <li><a href="#">https://www.controle.net/faq/o-que-sao-servidores</a></li>
+        <li><a href="#">https://tableless.github.io/iniciantes/manual/html/estruturabasica.html</a></li>
+        <li><a href="#">http://www.nce.ufrj.br/ginape/cursohtml/conteudo/listas/ordenada.htm#:~:text=A%20principal%20diferen%C3%A7a%20entre%20a,marcadores%20antes%20de%20cada%20elemento.</a></li>
+
+
+    </ul>
+
+</body>
+</html>
